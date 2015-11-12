@@ -1,0 +1,3 @@
+ÄR TOMMIE FULL? 
+
+JA SÅKLART
