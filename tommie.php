@@ -20,7 +20,7 @@
     <div id="status_txt"></div>
   </div>
 
-  <?php require 'unsoberize.php'
+  <?php require '/php/unsoberize.php'
 	echo "Hello"; ?>
   
 <button id="button_unsoberize" type="button" onclick="unsoberize()">Unsoberize</button>
