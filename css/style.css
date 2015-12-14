@@ -1,0 +1,53 @@
+@charset /* Reset defaults (no need to edit)*/ "utf-8";html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;vertical-align:baseline}:focus{outline:0}ol,ul,li{list-style-type:none}table{border-collapse:separate;border-spacing:0}caption,th,td{text-align:left;font-weight:400}
+
+
+body {
+    margin: auto;
+    font-size: 500%;
+    background: #001f4d;
+}
+
+#title {
+    position: absolute;
+    z-index: 100;
+    text-align:center;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    background: #000430;
+    padding: 50px 0;
+}
+
+#status_img {
+    position: relative;
+    margin: 10% 0;
+    background-image: url("img/sober.jpg");
+    height: 500px;
+    width: 100%
+}
+
+#status_txt {
+    position: absolute;
+    z-index: 100;
+    text-align:center;
+    top: 600px;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    background: #001430;
+    padding: 50px 0;
+}
+
+#button_unsoberize {
+    position: absolute;
+    text-align:center;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    border: 0px;
+    background: black;
+    font-size: 30px;
+    padding: 50px 0;
+    
+}
